@@ -544,7 +544,7 @@ img {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #fff;
+        color: #ffffff;
         margin-bottom: 16px;
 }
 
@@ -554,18 +554,18 @@ img {
 }
 
 .footer-form-input{
-    border: 1px solid #fff;
-        border-radius: 4px;
-        width: 264px;
-        height: 40px;
-        background-color: transparent;
+    border: 1px solid #ffffff; 
+        border-radius: 4px; 
+        width: 264px; 
+        height: 40px; 
+        background-color: transparent; 
         font-weight: 400;
-            font-size: 12px;
-            line-height: 2;
-            letter-spacing: 0.04em;
-            color: #fff;
-            padding-left: 16px;
-            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+            font-size: 12px; 
+            line-height: 2; 
+            letter-spacing: 0.04em; 
+            color: #ffffff; 
+            padding-left: 16px; 
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); 
 }
 
 .footer-form-input::placeholder{
@@ -602,9 +602,9 @@ img {
 } */
 
 .footer-form-button{
-            min-width: 165px;
-            height: 40px;
-            display: flex;
+            min-width: 165px; 
+            height: 40px; 
+            display: flex; 
             justify-content: center;
             align-items: center;
             font-family: "Roboto", sans-serif;
@@ -683,7 +683,7 @@ img {
 
 .button-close:hover,
 .button-close:focus{
-    fill: #fff;
+    fill: #ffffff;
 }
 
 .modal-text{
@@ -739,6 +739,8 @@ img {
     fill: #4D5AE5;
 }
 
+.input-modal-icons
+
 .modal-form-comment{
     margin-bottom: 16px;
 }
@@ -788,7 +790,7 @@ img {
     fill: transparent;
 }
 
-.input-privacy:checked{
+input[type="checkbox"]:checked {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -804,6 +806,7 @@ img {
     min-width: 169px;
     border-radius: 4px;
     height: 56px;
+    margin: 0 auto;
     background: #4d5ae5;
     font-weight: 500;
         font-size: 16px;
@@ -813,6 +816,5 @@ img {
         cursor: pointer;
         border: none;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
